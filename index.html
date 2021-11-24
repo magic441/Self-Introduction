@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>My Products</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+  <link href="css/ress.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <main class="content">
+      <!-- works -->
+      <section class="works section" id="works">
+        <div class="container">
+          <h2 class="title">Products</h2>
+          <div class="works-list">
+
+            <div class="works-item">
+              <div class="works-img"><img src="imgs/attraction.jpg" alt="" /></div>
+              <p class="works-name">東京ディズニーリゾート待ち時間Bot</p>
+              <div class="description"">
+                人生で初めてのプロダクト<br>
+                アトラクション名をつぶやくと、そのアトラクションの待ち時間をスクレイピングし、教えてくれるLineBot<br>
+                （作成後、スクレイピングのマナーについて知り、停止した）<br>
+                Ruby × Sinatra × Herokuで実装
+              </div>
+            </div>
+
+            <div class="works-item">
+              <div class="works-img"><img src="imgs/pokemon.jpg" alt="" /></div>
+              <p class="works-name">ポケモン図鑑Bot</p>
+              <div class="description"">
+                ポケットモンスター ソード/シールド発売のタイミングで作成したLineBot<br>
+                「すばやさ　(ポケモン名)」と入力すると、ポケモンの素早さを教えてくれたり、
+                「ダメージ　(ポケモン名1) (ポケモン名2) (ワザ名)」と入力すると、与えるダメージを教えてくれる<br>
+                Ruby × AWS Lambdaで実装
+              </div>
+            </div>
+
+            <div class="works-item">
+              <div class="works-img"><img src="imgs/molky.jpg" alt="" /></div>
+              <p class="works-name">Molky Score</p>
+              <div class="description"">
+                北欧生まれのスポーツの"モルック"のスコアボードアプリ<br>
+                Vue.jsの勉強のアウトプットを兼ねて作成したため、大した機能はなく、
+                モバイル端末で開くことしか想定していないため、画面が横向きになっている<br>
+              </div>
+              <a class="works-info" href="https://drive.google.com/file/d/1jSqcI-R-FhoCUosC_-2nV4gpqbyFtEV9/view?usp=sharing">Movie sample</a>
+            </div>
+
+            <div class="works-item">
+              <div class="works-img"><img src="imgs/survue.jpg" alt="" /></div>
+              <p class="works-name">Yes/Noアンケートアプリ</p>
+              <div class="description"">
+                会社の忘年会向けに作成したアンケートアプリ<br>
+                リアルタイム通信をやってみたかったのでCloud Firestoreを利用して作成
+                通信が多く発生すると課金が発生するのが怖かったが、身内だけで遊ぶものだったので気にしなかった。<br>
+                Vue.js × Firebase(Firestore)で実装
+              </div>
+              <a class="works-info" href="https://drive.google.com/file/d/1vxMBZ8XEPb4WlbsjNZmaSK5uZLLZT_ft/view?usp=sharing">Movie sample</a>
+                
+            </div>
+
+            <div class="works-item">
+              <div class="works-img"><img src="imgs/parkstamp.jpg" alt="" /></div>
+              <p class="works-name">ディズニーリゾート行動記録アプリ</p>
+              <div class="description"">
+                ディズニーリゾートでいつ、何の施設を利用したかを記録するアプリ<br>
+                Dockerを勉強しつつ、Firebaseを使った方がよいと思いつつも、DBを使ったバックエンドのアプリを作成したかったので、Expressを利用。<br>
+                フロントエンド：Vue.js<br>
+                バックエンド：Express × PostgreSQL × Heroku
+              </div>
+              <a class="works-info" href="https://drive.google.com/file/d/1jIQiyi6inwMdPE3zFkpawIspvdIeGclK/view?usp=sharing">Movie sample</a>
+            </div>
+
+          </div>
+        </div>
+        </div>
+      </section>
+      <!-- /works -->
+
+      <!-- about -->
+      <section class="about section" id="about">
+        <div class="container">
+          <div class="profile">
+            <div class="profile-body">
+              <h1>今枝昇平</h1>
+              <p>
+               1994年11月22日生まれ<br>
+               愛知県犬山市で生まれ犬山で育ち、名古屋大学経済学部を卒業<br>
+               仕事として勤怠管理システムの導入を行い、趣味として個人開発を行っている<br>
+               趣味はゲーム(デジタル、アナログ)、釣り、ディズニーリゾートに行くこと（ショー/パレード中心）
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /about -->
+
+
+  </div>
+</body>
+</html>
